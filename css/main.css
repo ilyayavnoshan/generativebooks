@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "halogen";
+  src: url(halogen.otf);
+}
+
+body {
+  font-family: halogen, sans-serif;
+}
+
+#topleft{
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 24pt;
+  line-height: 20pt;
+  z-index: 5;
+}
+
+#topright{
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  font-size: 24pt;
+  line-height: 20pt;
+  z-index: 5;
+}
+
+#main {
+  position: relative;
+  padding-top: 80px;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  padding-left: 15px;
+  margin-bottom: 50px;
+  font-size: 15pt;
+  line-height: 16pt;
+}
